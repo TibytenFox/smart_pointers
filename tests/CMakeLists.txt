@@ -7,3 +7,10 @@ add_executable(test
 	test_shared.cpp
 )
 target_compile_features(test PRIVATE cxx_std_17)
+
+add_executable(bench
+	test.cpp
+	benchmark.cpp
+)
+target_compile_features(bench PRIVATE cxx_std_17)
+target_compile_options(bench PRIVATE -O3)

@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-	std::cout << "=== RUNNING TESTS ===\n";
+	std::cout << "=== TESTS ===\n";
 
 	extern int tests_passed;
 	extern int tests_failed;
